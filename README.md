@@ -50,11 +50,14 @@ Displayed prediction ranges and actual historical trends.
 Added slicers for year, quarter, month filtering.
 
 📄 Power BI Dashboard Pages
+
+
 1️⃣ Executive Summary
 
 KPIs: Total Sales, Total Customers, Total Orders, Total Profit.
 
 Purpose: Quick business health overview.
+
 
 2️⃣ Sales Performance Insights
 
@@ -69,6 +72,7 @@ Sum of Sales by Sub-Category.
 Sum of Sales by Segment.
 
 Filters for flexible analysis.
+
 
 3️⃣ Advanced Analytics & Forecasting
 
@@ -92,6 +96,7 @@ Sales Distribution by State and Region (Map View)
 
 Sales Forecast for upcoming months (Prophet model output)
 
+
 📊 Model Output
 
 yhat → Predicted sales (main forecast line).
@@ -100,6 +105,7 @@ yhat_lower → Lower bound of confidence interval.
 
 yhat_upper → Upper bound of confidence interval.
 
+
 🛠 Tech Stack
 
 Python (pandas, prophet, matplotlib)
@@ -107,6 +113,7 @@ Python (pandas, prophet, matplotlib)
 Power BI (visualization & dashboard creation)
 
 Excel (original dataset storage)
+
 
 📈 Dashboard Features
 
@@ -122,6 +129,7 @@ Interactive slicers and filters
 
 Separate pages for KPIs, performance insights, and forecasting
 
+
 🚀 How to Run the Code
 
 Install dependencies:
@@ -134,6 +142,7 @@ Run the Python script to generate forecast CSV.
 Import CSV into Power BI.
 
 Connect to your sales dataset for comparison.
+
 
 📌 Author
 
